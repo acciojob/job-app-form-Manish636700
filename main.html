@@ -8,6 +8,93 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+
+	<form method="POST" action="/submit-form">
+		<div>
+			<label for ="name">
+				Name : 
+				<input type="text" id="name" name="name" required>
+			</label>
+		</div>
+
+		<br>
+		
+		<div>
+			<label for ="email">
+				Email : 
+					<input type = "email" id="email" name="email" required>
+			</label>
+		</div>
+
+		<br>
+		
+		<div>
+			<label for ="gender_m">
+				Gender :
+				<input type="radio" id="gender_m" name="gender" value="Male" required>Male
+			</label>
+
+			<label for="gender_f">
+				<input type="radio" id="gender_f" name="gender" value="Female" required>Female
+		</div>
+
+		<br>
+		
+		<div>
+			<label for ="laptop">
+				Laptop Brands :
+				<select id="laptop" name="Laptop Brands">
+					<option value="None"> Select Laptop Brands</option>
+					<option value="Apple"> Apple </option>
+					<option value="Asus"> Asus </option>
+					<option value="HP"> HP </option>
+				</select>
+			</label>
+		</div>
+
+		<br>
+		<div>
+			<label for ="age">
+				Age : 
+				<input type="number" id="age" name="Age" required>
+			</label>
+		</div>
+
+		<br>
+		
+		<div>
+			<label for ="dob">
+				Date of Birth : 
+				<input type="date" id="dob" name="Date of Birth" required>
+			</label>
+		</div>
+
+		<br>
+		
+		<div>
+			<label for ="password">
+				Password : 
+				<input type="password" id="password" name="Password" required>
+			</label>
+		</div>
+
+		<br>
+		<div>
+			<label for ="portfolio">
+				Portfolio URL : 
+				<input type ="url" id="portfolio" name="Portfolio URL">
+			</label>
+		</div>
+
+		<br>
+		
+		<div>
+			<label for ="sub">
+				Submit Button : 
+				<button type="submit" id="sub"> Submit</button>
+			</label>
+		</div>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
